@@ -6,10 +6,10 @@ class Carro:
 
     def acelerar(self):
         self.velocidade += 10
-        print(f" A {self.modelo}, do {self.ano} está a {self.velocidade} km/h")
+        print(f" A {self.modelo} modelo {self.ano} está a {self.velocidade} km/h")
 
     def frear(self):
-        print(f"A {self.modelo}, do {self.ano} reduziu para {self.velocidade} km/h")
+        print(f"A {self.modelo} modelo {self.ano} reduziu para {self.velocidade} km/h")
 
 carro1 = Carro("Ferrari", 2000)
 carro1.acelerar()
