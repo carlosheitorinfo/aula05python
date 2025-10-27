@@ -1,17 +1,16 @@
-class Animal:
-    def __init__(self, nome):
-        self.nome = nome
+#Crie uma classe Animal com método falar().
 
+class Animal: ('')
+   
 class Cachorro(Animal):
     def falar(self):
-        print(f"O {self.nome} faz Au Au!")
+        print("O cachorro faz auau !!")
 
 class Gato(Animal):
     def falar(self):
-        print(f"O {self.nome} faz Miau!")
+        print("O Gato faz miau !!")
 
-cachorro = Cachorro("cachorro")
-cachorro.falar()  
+animais = [Cachorro(), Gato()]
 
-gato = Gato("gato")
-gato.falar() 
+for animal in animais:
+    animal.falar()

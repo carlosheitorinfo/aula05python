@@ -1,4 +1,4 @@
-#Crie uma classe Retangulo com base e altura e método area().
+#10. Crie uma classe Retangulo com base e altura e método area().
 
 class Retangulo:
     def __init__(self, base, altura):

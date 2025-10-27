@@ -1,4 +1,4 @@
-#Crie uma classe Funcionario e uma classe Gerente que herda de Funcionario e adiciona o atributo setor.
+#9. Crie uma classe Funcionario e uma classe Gerente que herda de Funcionario e adiciona o atributo setor.
 
 class Funcionario:
     def __init__(self, nome, setor):

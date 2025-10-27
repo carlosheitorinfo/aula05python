@@ -1,3 +1,6 @@
+#2. Crie uma classe Carro que tenha modelo, ano e velocidade.
+#  Adicione métodos acelerar() e frear().
+
 class Carro:
     def __init__(self, modelo, ano):
         self.modelo=modelo

@@ -1,4 +1,4 @@
-#Crie uma classe Produto com atributos nome e preço. Crie um método desconto(percentual).
+#5. Crie uma classe Produto com atributos nome e preço. Crie um método desconto(percentual).
 
 class Produto:
     def __init__(self, nome, preco):
@@ -6,7 +6,7 @@ class Produto:
         self.preco = preco
 
     def desconto(self, percentual):
-            valor_desconto = self.preco * percentual
+            valor_desconto = self.preco * (percentual/100)
             novo_preco = self.preco - valor_desconto
             return novo_preco
 

@@ -1,3 +1,6 @@
+#1. Crie uma classe Pessoa com os atributos nome e idade. 
+# Crie um método que exiba uma mensagem: “Olá, meu nome é [nome] e tenho [idade] anos.”
+
 class Pessoa:
     def __init__(self,nome,idade):
         self.nome=nome

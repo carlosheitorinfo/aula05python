@@ -1,4 +1,4 @@
-#Crie uma classe Livro com título, autor e método exibir_detalhes().
+#6. Crie uma classe Livro com título, autor e método exibir_detalhes().
 
 class Livro:
     def __init__(self, titulo, autor):

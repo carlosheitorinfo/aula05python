@@ -1,4 +1,4 @@
-#Crie uma classe Aluno com nome, nota e método resultado() que diga se passou (nota ≥ 7).
+#7. Crie uma classe Aluno com nome, nota e método resultado() que diga se passou (nota ≥ 7).
 
 class Aluno:
     def __init__(self, aluno, nota):
